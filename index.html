@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Pricing Component</title>
+  </head>
+  <body>
+    <main>
+      <div class="heading">
+        <h1>Our Pricing</h1>
+        <div class="plan__type">
+          <p class="annually">Annually</p>
+          <div class="plan__button">
+            <div class="btn__knob"></div>
+          </div>
+          <p class="monthly">Monthly</p>
+        </div>
+      </div>
+
+      <div class="card__section">
+        <div class="plan__card">
+          <h4 class="plan__type">Basic</h4>
+          <div class="plan__cost">
+            <h2 class="price month--price">&dollar;19.99</h2>
+            <h2 class="price year--price">&dollar;199.99</h2>
+          </div>
+
+          <div class="plan__features">
+            <p>500 GB Storage</p>
+            <p>2 Users Allowed</p>
+            <p>Send up to 3 GB</p>
+          </div>
+          <button>Learn More</button>
+        </div>
+
+        <div class="plan__card middle">
+          <h4 class="plan__type">Professional</h4>
+          <div class="plan__cost">
+            <h2 class="price month--price">&dollar;24.99</h2>
+            <h2 class="price year--price">&dollar;249.99</h2>
+          </div>
+          <div class="plan__features">
+            <p>1 TB Storage</p>
+            <p>5 Users Allowed</p>
+            <p>Send up to 10 GB</p>
+          </div>
+          <button class="btn-mid">Learn More</button>
+        </div>
+
+        <div class="plan__card">
+          <h4 class="plan__type">Master</h4>
+          <div class="plan__cost">
+            <h2 class="price month--price">&dollar;39.99</h2>
+            <h2 class="price year--price">&dollar;399.99</h2>
+          </div>
+          <div class="plan__features">
+            <p>2 TB Storage</p>
+            <p>10 Users Allowed</p>
+            <p>Send up to 20 GB</p>
+          </div>
+          <button>Learn More</button>
+        </div>
+      </div>
+    </main>
+
+    <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+    <script src="app/app.js"></script>
+  </body>
+</html>
